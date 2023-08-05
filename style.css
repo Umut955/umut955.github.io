@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+body {
+    background: url(вода.jpg);
+}
+
+.sign {
+    width: 400px;
+    min-height: 200px;
+    background: url(доска.png);
+    display: flex;
+    flex-direction: wrap;
+    background-size: 100% 100%;
+    padding: 80px;
+    margin-right: 10px; 
+}
+
+.infosignboard {
+    display: flex;
+    justify-content: center;
+}
+
+.infosignboard img {
+    width: 350px;
+    height: auto;
+}
+
+.sign p {
+    font-size: 26px;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.signboard {
+    width: 400px;
+    min-height: 200px;
+    background: url(доска.png);
+    background-size: 100% 100%;
+    padding: 80px;
+}
+
+.signboard p {
+    font-size: 26px;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* Стилизуем пункты меню */
+.menu li {
+    display: inline-block; /* Располагаем пункты меню горизонтально */
+    padding: 10px;
+    background-color: rgb(206, 149, 15);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+/* Стилизуем ссылки в пунктах меню */
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+}
+
+/* Изменяем цвет ссылки при наведении курсора */
+.menu a:hover {
+    color: #555;
+    font-size: 34px;
+}
+
+/* Убираем подчеркивание ссылок */
+.menu a:visited {
+    text-decoration: none;
+}
